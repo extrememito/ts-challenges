@@ -1,0 +1,1 @@
+To run a file use npm start -- nameOfTheFile
