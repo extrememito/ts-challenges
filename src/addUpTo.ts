@@ -8,4 +8,10 @@ const addUpTo = (n: number) => {
   return total
 }
 
+const addUpTo2 = (n: number) => {
+  return ((n + 1) * n) / 2
+}
+
 measure(addUpTo, 10000000)
+
+measure(addUpTo2, 10000000)
